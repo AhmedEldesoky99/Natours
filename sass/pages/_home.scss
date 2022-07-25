@@ -1,0 +1,47 @@
+[class*="-section"] {
+  padding: 25rem 0;
+  @include responsive(tab-port) {
+    padding: 25rem 5rem;
+  }
+}
+.about-section {
+  background-color: $color-gray-light-1;
+  margin-top: -20vh;
+}
+
+.feature-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../img/nat-1-large.jpg");
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -12rem;
+  & > * {
+    transform: skewY(7deg);
+  }
+  @include responsive(tab-port) {
+    padding: 15rem 5rem;
+  }
+}
+.tours-section {
+  background-color: $color-gray-light-1;
+  margin-top: -11rem;
+  padding-bottom: 10rem;
+}
+
+.stories-section {
+  margin-top: -11rem;
+  position: relative;
+  padding-bottom: 5rem;
+}
+.book-section {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
