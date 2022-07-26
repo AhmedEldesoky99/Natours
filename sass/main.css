@@ -197,7 +197,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-secondary {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -413,6 +413,11 @@ body {
   background-size: 225%;
   transition: all 0.5s;
 }
+@media only screen and (max-width: 37.5em) {
+  .navigation__link:link, .navigation__link:visited {
+    font-size: 2rem;
+  }
+}
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   border-radius: 3px;
@@ -423,7 +428,7 @@ body {
   margin-right: 1rem;
 }
 .navigation__checkbox:checked ~ .navigation__background {
-  transform: scale(65);
+  transform: scale(70);
 }
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
@@ -1245,6 +1250,11 @@ body {
     display: block;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .popup__content {
+    width: 90%;
+  }
+}
 .popup__left {
   width: 33.3333333333%;
   display: table-cell;
@@ -1277,6 +1287,11 @@ body {
     width: 50%;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .popup__img {
+    height: 20rem;
+  }
+}
 .popup__text {
   font-size: 1.4rem;
   margin-bottom: 3rem;
@@ -1295,6 +1310,8 @@ body {
     -moz-column-count: 1;
          column-count: 1;
     font-size: 1rem;
+    height: 20rem;
+    overflow: scroll;
   }
 }
 .popup:target {

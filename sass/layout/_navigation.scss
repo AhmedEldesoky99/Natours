@@ -82,6 +82,9 @@
       );
       background-size: 225%;
       transition: all 0.5s;
+      @include responsive(phone) {
+        font-size: 2rem;
+      }
     }
     &:hover,
     &:active {
@@ -96,7 +99,7 @@
   }
   //functionality
   &__checkbox:checked ~ &__background {
-    transform: scale(65);
+    transform: scale(70);
   }
   &__checkbox:checked ~ &__nav {
     opacity: 1;
