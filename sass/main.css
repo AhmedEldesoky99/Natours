@@ -1192,8 +1192,8 @@ body {
   }
 }
 .form__radio-btn {
-  height: 2.6rem;
-  width: 2.6rem;
+  height: 3rem;
+  width: 3rem;
   border: 5px solid #55c57a;
   border-radius: 50%;
   display: inline-block;
@@ -1202,13 +1202,13 @@ body {
 }
 .form__radio-btn::after {
   content: "";
-  width: 1.26rem;
-  height: 1.26rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: #55c57a;
   border-radius: 50%;
   position: absolute;
-  top: 0.85rem;
-  left: 0.85rem;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.2s;
